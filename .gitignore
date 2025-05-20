@@ -3,10 +3,10 @@
 .DS_Store?
 Export/
 ndll/*/lime*
-ndll/*/liblime*
+!ndll/*/liblime*
 ndll/*/*.hdll
-ndll/*/*.hash
-ndll/*/*.so
+!ndll/*/*.hash
+!ndll/*/*.so
 ndll/*/*.dylib
 ndll/*/*.lib
 ndll/*/hl*
